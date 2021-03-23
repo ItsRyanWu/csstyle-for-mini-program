@@ -1,17 +1,18 @@
 {
-  "name": "csstyle",
-  "version": "2.0.2",
-  "description": "clean, simple styling for styling the web.",
+  "name": "csstyle-for-mini-program",
+  "version": "2.0.3",
+  "description": "clean, simple styling for styling the mini program.",
   "scripts": {
     "test": "mocha --recursive './tests/*.test.js'"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/csstyle-org/csstyle.git"
+    "url": "https://github.com/ItsRyanWu/csstyle-for-mini-program.git"
   },
   "keywords": [
     "css",
-    "web",
+    "wechat",
+    "mini program",
     "sass",
     "scss",
     "method",
@@ -22,10 +23,10 @@
     "components",
     "abstraction"
   ],
-  "author": "Frankie Wittevrongel <frankie@cupoftea.io>",
+  "author": "Ryan Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/csstyle-org/csstyle/issues"
+    "url": "https://github.com/ItsRyanWu/csstyle-for-mini-program"
   },
   "homepage": "https://csstyle.io",
   "devDependencies": {

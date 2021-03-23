@@ -1,6 +1,6 @@
 [<img src="https://csstyle.io/assets/img/logo.png" alt="csstyle" width="256" style="max-width:100%;">](https://csstyle.io)
 
-**Clean**, **simple**, for styling the **web**.
+**Clean**, **simple**, for styling the **mini program**.
 
 csstyle is a modern approach for crafting **beautifully maintainable** stylesheets. Keeping CSS clean and organized is really hard. csstyle provides a higher-level abstraction for writing modular CSS. Written for [Sass](https://sass-lang.com/), it makes your CSS readable and semantic, generates your selectors for you, and automatically handles things like specificity and nesting.
 
@@ -15,13 +15,12 @@ $ npm install --save-dev csstyle
 $ yarn add --dev csstyle
 ```
 
-Next, you need to add the `app` id to your `html` tag. You can use another id if you like, but you will need to configure this in your csstyle settings.
+Next, you need to add the `app` id to your outermost `view` tag. You can use another id if you like, but you will need to configure this in your csstyle settings.
 
 ```html
-<!DOCTYPE html>
-<html id="app" lang="en">
+<view id="app">
 ...
-</html>
+</view>
 ```
 
 Lastly, you'll need to import csstyle in your main sass file.
