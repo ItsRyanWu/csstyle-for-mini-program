@@ -306,7 +306,7 @@ $_csstyle_important: false;
     }
 
     @if ($_csstyle_has_root_id and $_csstyle_has_html_tag) or $_csstyle_important {
-        @return selector-parse(selector-nest(page + '#' + $csstyle-root-id, $selector));
+        @return selector-parse(selector-nest('#' + $csstyle-root-id, $selector));
     }
 
     @if $_csstyle_has_root_id and not $_csstyle_has_html_tag {
